@@ -1,0 +1,120 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 6,
+  "numPassedTests": 0,
+  "numFailedTests": 6,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1726764468865,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App jsx'e ToastContainer eklenmiş",
+          "status": "failed",
+          "title": "App jsx'e ToastContainer eklenmiş",
+          "duration": 23,
+          "failureMessages": [
+            "expected false to be true // Object.is equality"
+          ],
+          "location": {
+            "line": 35,
+            "column": 43
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App jsx'e toast css'i eklenmiş",
+          "status": "failed",
+          "title": "App jsx'e toast css'i eklenmiş",
+          "duration": 5,
+          "failureMessages": [
+            "expected false to be true // Object.is equality"
+          ],
+          "location": {
+            "line": 39,
+            "column": 65
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Login component'inde toastify success mesajı kullanılmış",
+          "status": "failed",
+          "title": "Login component'inde toastify success mesajı kullanılmış",
+          "duration": 4,
+          "failureMessages": [
+            "expected false to be true // Object.is equality"
+          ],
+          "location": {
+            "line": 43,
+            "column": 41
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Login component'inde toastify error mesajı kullanılmış",
+          "status": "failed",
+          "title": "Login component'inde toastify error mesajı kullanılmış",
+          "duration": 6,
+          "failureMessages": [
+            "expected false to be true // Object.is equality"
+          ],
+          "location": {
+            "line": 48,
+            "column": 34
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Başarılı girişte \"Merhaba {userName}, tekrar hoş geldin.\" mesajı çıkıyor.",
+          "status": "failed",
+          "title": "Başarılı girişte \"Merhaba {userName}, tekrar hoş geldin.\" mesajı çıkıyor.",
+          "duration": 1677,
+          "failureMessages": [
+            "Unable to find an element with the text: Merhaba Erdem Guntay, tekrar hoş geldin.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<header>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiStore Products\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<button\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-primary\"\u001b[39m\n        \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mLogin\u001b[0m\n      \u001b[36m</button>\u001b[39m\n    \u001b[36m</header>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"content-section\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"side-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h2>\u001b[39m\n          \u001b[0mCategories\u001b[0m\n        \u001b[36m</h2>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0melectronics\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mjewelery\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mmen's clothing\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mwomen's clothing\u001b[0m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"products-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"product-card\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n          \u001b[36m<h3>\u001b[39m\n            \u001b[0mFjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops\u001b[0m\n          \u001b[36m</h3>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mYour perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\u001b[0m\n          \u001b[36m</p>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0m109.95\u001b[0m\n            \u001b[0m$\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"product-card\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n          \u001b[36m<h3>\u001b[39m\n            \u001b[0mMens Casual Premium Slim Fit T-Shirts \u001b[0m\n          \u001b[36m</h3>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mSlim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.\u001b[0m\n          \u001b[36m</p>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0m22.3\u001b[0m\n            \u001b[0m$\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<footer>\u001b[39m\n      \u001b[36m<p>\u001b[39m\n        \u001b[0mCopyright @ 2023\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</footer>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\"location-display\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[0m/main\u001b[0m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<header>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiStore Products\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<button\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-primary\"\u001b[39m\n        \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mLogin\u001b[0m\n      \u001b[36m</button>\u001b[39m\n    \u001b[36m</header>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"content-section\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"side-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h2>\u001b[39m\n          \u001b[0mCategories\u001b[0m\n        \u001b[36m</h2>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0melectronics\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mjewelery\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mmen's clothing\u001b[0m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"category-item\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mwomen's clothing\u001b[0m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"products-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"product-card\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n          \u001b[36m<h3>\u001b[39m\n            \u001b[0mFjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops\u001b[0m\n          \u001b[36m</h3>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mYour perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday\u001b[0m\n          \u001b[36m</p>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0m109.95\u001b[0m\n            \u001b[0m$\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"product-card\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n          \u001b[36m<h3>\u001b[39m\n            \u001b[0mMens Casual Premium Slim Fit T-Shirts \u001b[0m\n          \u001b[36m</h3>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0mSlim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.\u001b[0m\n          \u001b[36m</p>\u001b[39m\n          \u001b[36m<p>\u001b[39m\n            \u001b[0m22.3\u001b[0m\n            \u001b[0m$\u001b[0m\n          \u001b[36m</p>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<footer>\u001b[39m\n      \u001b[36m<p>\u001b[39m\n        \u001b[0mCopyright @ 2023\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</footer>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\"location-display\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[0m/main\u001b[0m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kayıtlı olmayan kullanıcı girişinde \"Girdiğiniz bilgilerle bir kullanıcı bulamadık.\" mesajı çıkıyor.",
+          "status": "failed",
+          "title": "Kayıtlı olmayan kullanıcı girişinde \"Girdiğiniz bilgilerle bir kullanıcı bulamadık.\" mesajı çıkıyor.",
+          "duration": 1655,
+          "failureMessages": [
+            "Unable to find an element with the text: Girdiğiniz bilgilerle bir kullanıcı bulamadık.. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<header>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiStore Products\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<button\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-primary\"\u001b[39m\n        \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mLogin\u001b[0m\n      \u001b[36m</button>\u001b[39m\n    \u001b[36m</header>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"content-section\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"error-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h2>\u001b[39m\n          \u001b[0mLogin'de hata lütfen tekrar deneyiniz\u001b[0m\n        \u001b[36m</h2>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-primary\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mTekrar Dene\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<footer>\u001b[39m\n      \u001b[36m<p>\u001b[39m\n        \u001b[0mCopyright @ 2023\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</footer>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\"location-display\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[0m/error\u001b[0m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<header>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiStore Products\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<button\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-primary\"\u001b[39m\n        \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mLogin\u001b[0m\n      \u001b[36m</button>\u001b[39m\n    \u001b[36m</header>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"content-section\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"error-container\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<h2>\u001b[39m\n          \u001b[0mLogin'de hata lütfen tekrar deneyiniz\u001b[0m\n        \u001b[36m</h2>\u001b[39m\n        \u001b[36m<button\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"btn btn-primary\"\u001b[39m\n          \u001b[33mtype\u001b[39m=\u001b[32m\"button\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[0mTekrar Dene\u001b[0m\n        \u001b[36m</button>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<footer>\u001b[39m\n      \u001b[36m<p>\u001b[39m\n        \u001b[0mCopyright @ 2023\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</footer>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mdata-testid\u001b[39m=\u001b[32m\"location-display\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[0m/error\u001b[0m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        }
+      ],
+      "startTime": 1726764472538,
+      "endTime": 1726764475908,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-t6mshz/src/__tests__/index.test.jsx"
+    }
+  ]
+}
